@@ -1,26 +1,25 @@
 {
-  "name": "st-front",
+  "name": "st-sdk",
   "version": "1.0.0",
   "description": "",
-  "type": "module",
-  "main": "index.js",
+  "main": "src/index.ts",
   "scripts": {
     "build": "rollup -c ./rollup.config.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "keywords": [],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/girl-email/st-front.git"
+  },
   "author": "mwq",
   "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/girl-email/st-front/issues"
+  },
+  "homepage": "https://github.com/girl-email/st-front#readme",
   "devDependencies": {
     "@babel/core": "^7.20.5",
     "@babel/preset-env": "^7.20.2",
-    "rollup": "^3.5.1",
-    "rollup-plugin-babel": "^4.4.0",
-    "rollup-plugin-clear": "^2.0.7",
-    "rollup-plugin-copy": "^3.4.0",
-    "rollup-plugin-node-resolve": "^5.2.0",
-    "rollup-plugin-terser": "^7.0.2",
-    "rollup-plugin-typescript2": "^0.34.1",
     "typescript": "^4.9.3"
   },
   "dependencies": {
