@@ -15,17 +15,17 @@ const m = (socket) => {
     window.console.log = function () {
         s.o.apply(console, arguments);
         cmd.log = arguments
-        socket.emit("data", cmd);
+        socket.emit("data", {cmd});
     }
     window.console.error = function () {
         s.e.apply(console, arguments);
         cmd.error = arguments
-        socket.emit("data", cmd);
+        socket.emit("data", {cmd});
     }
     window.console.warn = function () {
         s.w.apply(console, arguments);
         cmd.warn = arguments
-        socket.emit("data", cmd);
+        socket.emit("data", {cmd});
     }
 }
 
