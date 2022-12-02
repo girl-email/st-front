@@ -1,5 +1,4 @@
 const m = (socket) => {
-    let l;
     let s = {
         o: null,
         e: null,
