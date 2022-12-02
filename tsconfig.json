@@ -13,5 +13,5 @@
     "lib": ["ESNext"],
     "sourceMap": true,
   },
-  "include": ["./src"]
+  "include": ["./src/*"]
 }
