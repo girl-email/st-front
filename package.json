@@ -1,5 +1,5 @@
 {
-  "name": "st-sdk",
+  "name": "st-sdkjs",
   "version": "1.0.0",
   "description": "st-sdk js",
   "main": "src/index.ts",
