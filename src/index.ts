@@ -3,7 +3,7 @@ import { ClientToServerEvents } from "./types/main";
 import m from "./utils/monitor";
 import project from "../package.json";
 
-const link = (appKey: string, userName: string, userId: number, ext?: object) => {
+const st = (appKey: string, userName: string, userId: number, ext?: object) => {
     const socket: Socket<ClientToServerEvents> = io("ws://10.255.8.9:7001");
     console.log(
         `\n%c${project.name}${project.version}  🚀`,
@@ -41,4 +41,4 @@ const link = (appKey: string, userName: string, userId: number, ext?: object) =>
     });
 }
 
-export default link
+export default st
