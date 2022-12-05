@@ -11,10 +11,15 @@
 import st from 'st-sdkjs';
 
 /**
- * 
- * @param appKey 闪调后台获取应用appkey
- * @param appKey 当前用户姓名
- * @param userId 当前用户唯一标识id
+ * main.js内调用此方法
  */
-st(appKey, userName, userId);
+st.init();
+
+/**
+ * 登陆后调用此方法传入信息
+ * @param {string} appKey 闪调后台获取应用appkey
+ * @param {string} appKey 当前用户姓名
+ * @param {number} userId 当前用户唯一标识id
+ */
+st.login(appKey, userName, userId);
 ```
