@@ -1,6 +1,6 @@
 {
   "name": "st-sdkjs",
-  "version": "1.0.0-beta.1",
+  "version": "1.0.0-beta.2",
   "description": "st-sdk js",
   "main": "src/index.ts",
   "scripts": {
